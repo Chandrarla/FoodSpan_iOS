@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E2157A82BE9AA1F0011053F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2157A72BE9AA1F0011053F /* AppDelegate.swift */; };
+		2E2157AA2BE9AA1F0011053F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2157A92BE9AA1F0011053F /* SceneDelegate.swift */; };
+		2E2157AC2BE9AA1F0011053F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2157AB2BE9AA1F0011053F /* LoginViewController.swift */; };
+		2E2157B12BE9AA200011053F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2157B02BE9AA200011053F /* Assets.xcassets */; };
+		2E2157B42BE9AA200011053F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2E2157B32BE9AA200011053F /* Base */; };
+		2E2157BD2BE9AA990011053F /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 2E2157BC2BE9AA990011053F /* Then */; };
+		2E2157C02BE9AAA80011053F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2E2157BF2BE9AAA80011053F /* SnapKit */; };
+		2E2157C82BE9B0230011053F /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2157C22BE9B0220011053F /* Pretendard-Medium.otf */; };
+		2E2157C92BE9B0230011053F /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2157C32BE9B0220011053F /* Pretendard-Thin.otf */; };
+		2E2157CA2BE9B0230011053F /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2157C42BE9B0220011053F /* Pretendard-Regular.otf */; };
+		2E2157CB2BE9B0230011053F /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2157C52BE9B0230011053F /* Pretendard-SemiBold.otf */; };
+		2E2157CC2BE9B0230011053F /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2157C62BE9B0230011053F /* Pretendard-Bold.otf */; };
+		2E2157CD2BE9B0230011053F /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E2157C72BE9B0230011053F /* Pretendard-Black.otf */; };
+		2E2157CF2BE9B5DF0011053F /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2157CE2BE9B5DF0011053F /* UIButton+Extension.swift */; };
+		2E2157D12BE9BC8A0011053F /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2157D02BE9BC8A0011053F /* AppError.swift */; };
+		2E2157D52BE9BDA10011053F /* FridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2157D42BE9BDA10011053F /* FridgeViewController.swift */; };
+		2E2157D72BE9E97C0011053F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2157D62BE9E97C0011053F /* UIView+Extension.swift */; };
+		2E2157DD2BE9ED3A0011053F /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2157DC2BE9ED3A0011053F /* UITextField+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E2157A42BE9AA1F0011053F /* FoodSpan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodSpan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2157A72BE9AA1F0011053F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E2157A92BE9AA1F0011053F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E2157AB2BE9AA1F0011053F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2E2157B02BE9AA200011053F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E2157B32BE9AA200011053F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E2157B52BE9AA200011053F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2157C22BE9B0220011053F /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		2E2157C32BE9B0220011053F /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		2E2157C42BE9B0220011053F /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		2E2157C52BE9B0230011053F /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		2E2157C62BE9B0230011053F /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		2E2157C72BE9B0230011053F /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		2E2157CE2BE9B5DF0011053F /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		2E2157D02BE9BC8A0011053F /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		2E2157D42BE9BDA10011053F /* FridgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeViewController.swift; sourceTree = "<group>"; };
+		2E2157D62BE9E97C0011053F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		2E2157DC2BE9ED3A0011053F /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E2157A12BE9AA1F0011053F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2157BD2BE9AA990011053F /* Then in Frameworks */,
+				2E2157C02BE9AAA80011053F /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E21579B2BE9AA1F0011053F = {
+			isa = PBXGroup;
+			children = (
+				2E2157A62BE9AA1F0011053F /* FoodSpan */,
+				2E2157A52BE9AA1F0011053F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E2157A52BE9AA1F0011053F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E2157A42BE9AA1F0011053F /* FoodSpan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E2157A62BE9AA1F0011053F /* FoodSpan */ = {
+			isa = PBXGroup;
+			children = (
+				2E2157C12BE9B00E0011053F /* Font */,
+				2E2157DA2BE9EB840011053F /* Extensions */,
+				2E2157DB2BE9EB9B0011053F /* Application */,
+				2E2157AB2BE9AA1F0011053F /* LoginViewController.swift */,
+				2E2157D42BE9BDA10011053F /* FridgeViewController.swift */,
+				2E2157B02BE9AA200011053F /* Assets.xcassets */,
+				2E2157B52BE9AA200011053F /* Info.plist */,
+				2E2157D02BE9BC8A0011053F /* AppError.swift */,
+			);
+			path = FoodSpan;
+			sourceTree = "<group>";
+		};
+		2E2157C12BE9B00E0011053F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2E2157C72BE9B0230011053F /* Pretendard-Black.otf */,
+				2E2157C62BE9B0230011053F /* Pretendard-Bold.otf */,
+				2E2157C22BE9B0220011053F /* Pretendard-Medium.otf */,
+				2E2157C42BE9B0220011053F /* Pretendard-Regular.otf */,
+				2E2157C52BE9B0230011053F /* Pretendard-SemiBold.otf */,
+				2E2157C32BE9B0220011053F /* Pretendard-Thin.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		2E2157DA2BE9EB840011053F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E2157CE2BE9B5DF0011053F /* UIButton+Extension.swift */,
+				2E2157D62BE9E97C0011053F /* UIView+Extension.swift */,
+				2E2157DC2BE9ED3A0011053F /* UITextField+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2E2157DB2BE9EB9B0011053F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2E2157B22BE9AA200011053F /* LaunchScreen.storyboard */,
+				2E2157A72BE9AA1F0011053F /* AppDelegate.swift */,
+				2E2157A92BE9AA1F0011053F /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E2157A32BE9AA1F0011053F /* FoodSpan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2157B82BE9AA200011053F /* Build configuration list for PBXNativeTarget "FoodSpan" */;
+			buildPhases = (
+				2E2157A02BE9AA1F0011053F /* Sources */,
+				2E2157A12BE9AA1F0011053F /* Frameworks */,
+				2E2157A22BE9AA1F0011053F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodSpan;
+			packageProductDependencies = (
+				2E2157BC2BE9AA990011053F /* Then */,
+				2E2157BF2BE9AAA80011053F /* SnapKit */,
+			);
+			productName = FoodSpan;
+			productReference = 2E2157A42BE9AA1F0011053F /* FoodSpan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E21579C2BE9AA1F0011053F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2E2157A32BE9AA1F0011053F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 2E21579F2BE9AA1F0011053F /* Build configuration list for PBXProject "FoodSpan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E21579B2BE9AA1F0011053F;
+			packageReferences = (
+				2E2157BB2BE9AA990011053F /* XCRemoteSwiftPackageReference "Then" */,
+				2E2157BE2BE9AAA80011053F /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 2E2157A52BE9AA1F0011053F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E2157A32BE9AA1F0011053F /* FoodSpan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E2157A22BE9AA1F0011053F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2157B12BE9AA200011053F /* Assets.xcassets in Resources */,
+				2E2157B42BE9AA200011053F /* Base in Resources */,
+				2E2157CC2BE9B0230011053F /* Pretendard-Bold.otf in Resources */,
+				2E2157CA2BE9B0230011053F /* Pretendard-Regular.otf in Resources */,
+				2E2157CB2BE9B0230011053F /* Pretendard-SemiBold.otf in Resources */,
+				2E2157C82BE9B0230011053F /* Pretendard-Medium.otf in Resources */,
+				2E2157CD2BE9B0230011053F /* Pretendard-Black.otf in Resources */,
+				2E2157C92BE9B0230011053F /* Pretendard-Thin.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E2157A02BE9AA1F0011053F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2157AC2BE9AA1F0011053F /* LoginViewController.swift in Sources */,
+				2E2157D52BE9BDA10011053F /* FridgeViewController.swift in Sources */,
+				2E2157CF2BE9B5DF0011053F /* UIButton+Extension.swift in Sources */,
+				2E2157D12BE9BC8A0011053F /* AppError.swift in Sources */,
+				2E2157D72BE9E97C0011053F /* UIView+Extension.swift in Sources */,
+				2E2157DD2BE9ED3A0011053F /* UITextField+Extension.swift in Sources */,
+				2E2157A82BE9AA1F0011053F /* AppDelegate.swift in Sources */,
+				2E2157AA2BE9AA1F0011053F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E2157B22BE9AA200011053F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E2157B32BE9AA200011053F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E2157B62BE9AA200011053F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E2157B72BE9AA200011053F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E2157B92BE9AA200011053F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodSpan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.chandrala.FoodSpan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E2157BA2BE9AA200011053F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodSpan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.chandrala.FoodSpan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E21579F2BE9AA1F0011053F /* Build configuration list for PBXProject "FoodSpan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2157B62BE9AA200011053F /* Debug */,
+				2E2157B72BE9AA200011053F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2157B82BE9AA200011053F /* Build configuration list for PBXNativeTarget "FoodSpan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2157B92BE9AA200011053F /* Debug */,
+				2E2157BA2BE9AA200011053F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E2157BB2BE9AA990011053F /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		2E2157BE2BE9AAA80011053F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E2157BC2BE9AA990011053F /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E2157BB2BE9AA990011053F /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		2E2157BF2BE9AAA80011053F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E2157BE2BE9AAA80011053F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2E21579C2BE9AA1F0011053F /* Project object */;
+}
